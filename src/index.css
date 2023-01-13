@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --primary-color: #387780;
+  --secondary-color: white;
+  --tertiary-color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#main-footer {
+    height: 8rem;
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.footer-title {
+  font-size: 2rem;
+}
+
+#main-title {
+  font-size: 3rem;
+  width: 100vw;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  background-color: #387780;
+}
+
+#nav-link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+}
+
+.second-nav {
+  background-color: var(--primary-color);
+  width: 100vw;
+}
+
+.cover-photo {
+  width: 100%;
+}
+
+.barn-description-text {
+  width: 50%;
+}
+
+.barn-description-image {
+  width: 30%;
+  height: 30%;
+}
+
+.second-barn-description-image {
+  width: 30%;
+  height: 30%;
+}
+
+.second-barn-description {
+  margin-bottom: 6rem;
 }
