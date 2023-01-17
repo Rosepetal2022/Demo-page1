@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="footer-title">
                     Some Barn Name
                 </div>
-                12345 Some Road Portland, OR 97013 * 555-555-5555 * someemail@someemail.com
+                
                 <br />
                 {new Date().getFullYear()}
             </div>

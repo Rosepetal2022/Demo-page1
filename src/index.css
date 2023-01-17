@@ -1,11 +1,12 @@
 :root {
-  --primary-color: #387780;
+  --primary-color: #01172f;
   --secondary-color: white;
-  --tertiary-color: white;
+  --tertiary-color: #254D32;
 }
 
+/*Footer Designs Start*/
 #main-footer {
-    height: 8rem;
+    height: 4rem;
     bottom: 0;
     position: fixed;
     width: 100vw;
@@ -15,28 +16,62 @@
 
 .footer-title {
   font-size: 2rem;
+  color: var(--secondary-color)
 }
 
+.second-footer-div{
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+  padding-bottom: 15rem;
+}
+
+.second-footer-logo {
+  padding-top: 3rem;
+}
+
+.contact-us {
+  padding-top: 3rem;
+}
+
+.contact-border {
+  padding: 1rem;
+  border-bottom: 3px solid var(--primary-color);
+}
+
+.location {
+  padding-top: 3rem;
+}
+
+.site-links {
+  padding-top: 3rem;
+}
+/* Footer Designs End*/
+
+
+/* Nav Bar Designs Start*/
 #main-title {
   font-size: 3rem;
   width: 100vw;
   padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 2rem;
-  background-color: #387780;
+  background-color: var(--primary-color);
+  color: var(--secondary-color)
 }
 
 #nav-link {
   text-decoration: none;
   font-size: 2rem;
-  color: black;
+  color: var(--secondary-color);
 }
 
 .second-nav {
   background-color: var(--primary-color);
   width: 100vw;
 }
+/*Nav Bar Desgins End*/
 
+/*Home Page Designs Start*/
 .cover-photo {
   width: 100%;
 }
@@ -54,7 +89,22 @@
   width: 30%;
   height: 30%;
 }
+/*Home Page Designs End*/
 
-.second-barn-description {
-  margin-bottom: 6rem;
+
+/*Sales Page Starts */
+.card-div {
+  margin-bottom: 20rem;
 }
+
+.custom-card {
+  width: 60%;
+  margin: 2rem;
+  box-shadow: 10px 5px 5px var(--primary-color)
+}
+
+.custom-card-image {
+  margin: 1rem;
+}
+
+/*Sales Page Ends*/
