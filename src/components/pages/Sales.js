@@ -29,21 +29,22 @@ const Sales = () => {
     ]
     return (
         <>
-        <h1>Sale Horses</h1>
-        <div>Looking for your next partner? Let Some Farm help you find your next dream horse.</div>
+        <div className="main-sales-div">
+        <h1 className="sales-title">Sale Horses</h1>
+        <div className="sales-description">Looking for your next partner? Let Some Farm help you find your next dream horse.</div>
       <div className="container">
         <div className="row justify-content-center card-div">
         {saleHorses.map((sale, i) => (
             <Card className="custom-card">
-                <div className="d-flex justify-content-around">
-                <div className="custom-card-image">
+                <div className="d-flex">
+                <div className="custom-card-image col-sm-4">
                     <CardImg className="sale-img" 
-                    style={{width: '25rem'}}
+                    style={{width: '80%'}}
                     src={require(`../../assets/sale_horse/${i}.png`)}></CardImg>
                 </div>
-                <div>
-                <CardBody className="text-center">
-                    <CardTitle className="font-second">{sale.name}</CardTitle>
+                <div className='col-lg-8 col-md-6 col-sm-2 align-self-center'>
+                <CardBody>
+                    <CardTitle className="sales-card-title">{sale.name}</CardTitle>
                     <CardText className="font">
                         {sale.description}
                     </CardText>
@@ -53,6 +54,7 @@ const Sales = () => {
               
             </Card>
         ))}
+    </div>
     </div>
     </div>
 </>

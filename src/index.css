@@ -2,6 +2,7 @@
   --primary-color: #01172f;
   --secondary-color: white;
   --tertiary-color: #254D32;
+  --quarternary-color: #8b939c;
 }
 
 /*Footer Designs Start*/
@@ -51,12 +52,16 @@
 /* Nav Bar Designs Start*/
 #main-title {
   font-size: 3rem;
-  width: 100vw;
+  width: 100%;
   padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 2rem;
   background-color: var(--primary-color);
   color: var(--secondary-color)
+}
+
+.sales-card-title {
+  font-size: 2rem;
 }
 
 #nav-link {
@@ -66,14 +71,31 @@
 }
 
 .second-nav {
-  background-color: var(--primary-color);
-  width: 100vw;
+  background-color: var(--tertiary-color);
+  width: 100%;
 }
 /*Nav Bar Desgins End*/
 
 /*Home Page Designs Start*/
+.main-home-div {
+  background-color: var(--quarternary-color)
+}
 .cover-photo {
   width: 100%;
+}
+
+.barn-description{
+  padding: 2rem;
+  color: white;
+}
+
+.description-card {
+  padding: 1rem;
+}
+
+.second-barn-description {
+  padding: 2rem;
+  color: white;
 }
 
 .barn-description-text {
@@ -87,19 +109,38 @@
 
 .second-barn-description-image {
   width: 30%;
-  height: 30%;
+  height: 30%; 
 }
 /*Home Page Designs End*/
 
 
 /*Sales Page Starts */
+.main-sales-div {
+  background-color: var(--quarternary-color);
+}
 .card-div {
-  margin-bottom: 20rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+
+.sales-title {
+  text-align: center;
+  color: white;
+  padding-top: 2rem;
+}
+
+.sales-description {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
 }
 
 .custom-card {
-  width: 60%;
-  margin: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: auto;
   box-shadow: 10px 5px 5px var(--primary-color)
 }
 
@@ -108,3 +149,18 @@
 }
 
 /*Sales Page Ends*/
+
+/*About Page Designs Start*/
+
+.main-about-header {
+  text-align: center;
+  padding: 1rem;
+}
+
+.main-about-div {
+  background-color: var(--quarternary-color);
+}
+
+.trainer-photo {
+  align-self: center;
+}

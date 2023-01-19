@@ -26,6 +26,11 @@ const Header = () => {
         </Nav>
 
         <Nav className="d-flex justify-content-end second-nav">
+        <div>
+                <NavItem>
+                    <NavLink id="nav-link" href="/"> Home </NavLink>
+                </NavItem>
+            </div>
             <div>
                 <NavItem>
                     <NavLink id="nav-link" href="/Sales"> Sales </NavLink>
@@ -37,6 +42,12 @@ const Header = () => {
                     <NavLink id="nav-link" href="/About"> About the Team </NavLink>
                 </NavItem>
             </div>
+            <div>
+                <NavItem>
+                    <NavLink id="nav-link" href="/Contact">Contact</NavLink>
+                </NavItem>
+            </div>
+            
 
             <div> 
 
